@@ -8,3 +8,150 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# ================================
+#  Java projects specific rules
+# ================================
+
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# ================================
+#  Maven specific rules
+# ================================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ================================
+#  Gradle specific rules
+# ================================
+
+.gradle/
+build/
+
+# ================================
+#  IntelliJ IDEA specific rules
+# ================================
+
+*.iml
+*.ipr
+*.iws
+*.idea/
+out/
+.idea_modules/
+
+# ================================
+#  Eclipse specific rules
+# ================================
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.recommenders
+.springBeans
+
+# ================================
+#  NetBeans specific rules
+# ================================
+
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ================================
+#  Visual Studio Code specific rules
+# ================================
+
+.vscode/
+
+# ================================
+#  Node.js / NPM specific rules (for frontend)
+# ================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ================================
+#  OS generated files
+# ================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+Windows/Temp/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ================================
+#  Project specific rules
+# ================================
+
+# RuoYi specific
+ruoyi-ui/dist/
+ruoyi-ui/node_modules/
